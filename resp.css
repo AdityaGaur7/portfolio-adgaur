@@ -1,12 +1,10 @@
-@media(max-width:680px) {
+@media(max-width:790px) {
 
-    html {
-        margin: auto;
-        width: auto;
-    }
+   
 
     body {
         overflow-x: hidden;
+    
     }
 
     .logo img {
@@ -19,13 +17,28 @@
 
     .links {
         display: block;
-        position: relative;
-        z-index: 10;
-        top: 9rem;
-        left: 20%;
+        position: absolute;
+        z-index: 13;
+        top: 4rem;
+        left: 75%;
+        background: #064c51;
         /* background-color:#1d252f; */
         height: 15rem;
-        width: 10rem;
+        margin: auto;
+        height: auto;
+        width: auto;
+        display: none;
+    }
+
+    #btn-hbg ,#btn-x{
+        display: block;
+          position: absolute;
+        left: 80%;
+    }
+  #btn-x{
+    display: none;
+  }
+    #bg-x{
         display: none;
     }
 
@@ -34,17 +47,28 @@
     }
 
     #bg {
+        position:relative;
         height: 15vh;
-        top: 18rem;
+        top: 70%;
+        /* left: 10%; */
+    }
+    #img{
+        position: absolute;
+        margin: auto;
+        left: 34%;
+        top: -40%;
+        text-align: center;
     }
 
     @keyframes cyan {
         from {
-            left: 63%;
+            position: relative;
+            left: 5%;
         }
 
         to {
-            left: 65%;
+            position: relative;
+            left: 10%;
         }
 
     }
@@ -54,14 +78,22 @@
     }
 
     hr {
-        margin-left: 9vw;
-        width: 24rem;
+        
+        /* width: auto;*/
+        
+        margin: auto;  
+        text-align: center;
+        width: 80%;
     }
 
-    .left {
+    .left ,.right{
         position: relative;
-        z-index: 12;
-        margin-left: 25vw;
+        z-index: 1;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+
+        /* margin-left: 25vw; */
     }
 
     .left h3 {
@@ -88,7 +120,13 @@
     .photo img {
         height: 25vh;
     }
-
+    .frame{
+        text-align: center;
+        margin: auto;
+    }
+.info{
+    text-align: center;
+}
     .info p {
         font-size: 11px;
     }
@@ -124,12 +162,14 @@
     .tech {
         width: 100%;
         margin-top: 9rem;
-        margin-left:3rem;
+        /* margin-left:3rem; */
         text-align: center;
 
     }
-   .tech ul li{
-    margin-left: 18vw;
+   .tech ul{
+    /* margin-left: 18vw; */
+    position: absolute;
+    left: 35%;
    }
 
 
@@ -141,15 +181,16 @@
         font-size: 15px;
 
     }
+    .bx{
+        margin: 20px;
+        width: 20%;
+    }
 
     .bx p {
         font-size: 10px;
 
     }
 
-    .service {
-        margin-left: 5rem;
-    }
 
     .sampark {
         width: 86%;
@@ -169,77 +210,47 @@
         width: 5rem;
     }
 
-    .proj {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
+   .base{
+    width: 100%;
+    font-size: 13px;
+   }
     .cd button {
         width: 6rem;
     }
-    .card{
-        margin-left: 13vw;
-    }
+   
 
     .cd img {
         height: 23vh;
     }
 
-    #btn-hbg {
-        display: block;
-        
-    }
   
 
-    .foot {
-        margin-left: 15vw;
-    }
-  #cnt{
-    margin-left: 10vw;
-  }
+  
  .layer{
     width: 50%;
  }
-
-
+.nav{
+        width: 80.6%;
+            background: #1d252f;
 }
-@media (min-width:410px) {
-    #bg{
-        top:24rem;
-    }
-    hr{
-        width: 30rem;
-    }
-    form{
-        margin-left: 8rem;
-    }
-    .card{
-        margin-left:9vw;
-    }
-    #about{
-        margin-left: 7rem;
-    }
-    .base h3{
-       margin-left: 5vw;
-       width: 30rem;
-       text-align: center;
-    
-    }
-    .education{
-        margin-left: 2.5rem;
-    
-    }
+.me,.box{
+    flex-wrap: wrap;
 }
-    @media (min-width:700px) {
-        #bg{
-        top: 12rem;
+.baya ul{
+    text-align: center;
+}
+.links{
+    display: none;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    height: 100vh;
+    top: 10%;
+    background-color: #1d252f;
+    opacity: .8;
+    text-align: center;
+}
+}
 
-    }
-    hr{
-        width: 80rem;
-    }
-    .card{
-        margin-left: 0;
-    }
   
-}
