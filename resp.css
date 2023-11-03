@@ -16,7 +16,7 @@
     }
 
     .links {
-        display: block;
+        /* display: block; */
         position: absolute;
         z-index: 13;
         top: 4rem;
