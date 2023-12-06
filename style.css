@@ -574,7 +574,15 @@ textarea {
     white-space: nowrap;
     margin-bottom: 20px;
   }
-  
-  
-  
+  #resume{
+    
+        height: 0px;
+    
+  }
+  @media (max-width:720px) {
+    #resume{
+        height: 5vh;
+    }
+    
+  }
   
