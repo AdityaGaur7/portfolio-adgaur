@@ -495,7 +495,10 @@ span:hover {
     align-items: center;
 
 }
-
+.msg{
+    position: relative;
+    z-index: 11;
+}
 .msg h1 {
     margin: auto;
     text-align: center;

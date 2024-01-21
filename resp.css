@@ -32,8 +32,9 @@
 
     #btn-hbg ,#btn-x{
         display: block;
-          position: absolute;
-        left: 80%;
+        padding: fixed;
+          /* position: absolute; */
+        /* left: 80%; */
     }
   #btn-x{
     display: none;
@@ -231,7 +232,7 @@
  }
 .nav{
         width: 80.6%;
-            background: #1d252f;
+            /* background: #1d252f; */
 }
 .me,.box{
     flex-wrap: wrap;
