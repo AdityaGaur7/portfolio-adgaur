@@ -7,9 +7,9 @@
     text-decoration: none;
     list-style: none;
     color: aliceblue;
-    font-family: 'Dosis', sans-serif;
-  
-    font-weight: 400;
+    font-family: 'Dosis', sans-serif;font-family: 'Courier New', monospace;
+    font-weight: 500;
+   
 }
 
 html {
@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-weight: 600;
     /* background-color: rgb(82, 70, 51); */
 }
 
@@ -52,6 +53,9 @@ body {
 .logo img {
     width: auto;
     height: 5vh;
+    animation: bg 4s 0s infinite linear ;
+    /* box-shadow: 6px 6px 8px#00E8F8; */
+    transition: all ease 2s;
 }
 
 .links {
@@ -60,7 +64,7 @@ body {
     float: right;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    
     margin-top: 2vh;
     /* margin-left: 45vw; */
 
@@ -68,16 +72,21 @@ body {
 
 .links li a {
     margin: 1vw;
-    transition: all .55s;
+    font-weight: 900;
+    transition: ease .15s;
 }
 
 .links li a:hover {
     color: #00E8F8;
-
+    filter:drop-shadow(4px 3px 2px #00E8F8);
+  
 
 }
 #btn-hbg,#btn-x{
     display: none;
+    position: absolute;
+left: 80%;
+ transition: ease 1s ;
 }
 
 .container , #ok{
@@ -147,6 +156,7 @@ hr {
 
 span {
     color: #00E8F8;
+    font-weight: 600;
 }
 
 span:hover {
@@ -497,6 +507,7 @@ span:hover {
 }
 .msg{
     position: relative;
+    font-family: math;
     z-index: 11;
 }
 .msg h1 {
@@ -546,6 +557,8 @@ textarea {
  font-family:'Courier New', Courier, monospace;
  margin: 3vh;
  text-align: center;
+ 
+ 
 }
 
 

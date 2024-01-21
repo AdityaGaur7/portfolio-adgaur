@@ -1,9 +1,11 @@
 @media(max-width:790px) {
-
+  *{
+    /* overflow-x: hidden; */
+  }
    
 
     body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     
     }
 
@@ -16,6 +18,7 @@
     }
 
     .links {
+        overflow-x: hidden;
         /* display: block; */
         position: absolute;
         z-index: 13;
@@ -252,6 +255,11 @@
     opacity: .8;
     text-align: center;
 }
+
+
+.education,.container,.links,.nav,.about ,.msg{
+    overflow-x: hidden;
+  }
 }
 
   
