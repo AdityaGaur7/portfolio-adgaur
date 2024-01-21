@@ -80,7 +80,7 @@ body {
     display: none;
 }
 
-.container {
+.container , #ok{
     width: 100%;
     height: 99vh;
     display: flex;
@@ -89,6 +89,10 @@ body {
     /* background-color: rgb(29, 51, 70); */
 }
 
+#ok{
+    position: fixed;
+    overflow: hidden;
+}
 .box {
     width: auto;
     height: 60vh;
@@ -114,6 +118,8 @@ hr {
     margin: auto;
     height: 3px;
     border: 0;
+    position: absolute;
+    z-index: 11;
     background-color: #00E8F8;
 
 }
@@ -454,6 +460,8 @@ span:hover {
     display: grid;
     align-content: space-between;
     justify-items: center;
+    position: absolute;
+    z-index: 11;
     height: 35vh;
 
 }
